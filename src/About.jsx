@@ -6,6 +6,7 @@ import { faSquareGithub, faLinkedin, faInstagram } from '@fortawesome/free-brand
 import Sliderprojects from './Sliderproject'
 import rocket from '/images/rocketlogo.png'
 import smile from '/images/smilelogo.png'
+import aboutme from '/images/aboutme.jpg'
 
 
 function PercentageCircle({ percent, radius = 60, color = '#3498db' }) {
@@ -117,7 +118,7 @@ function About() {
   <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center'>
     
     <div className='flex justify-center'>
-      <img src="images/aboutme.jpg" className='w-[250px] h-[300px] md:w-[300px] md:h-[350px] mb-6 md:mb-10 rounded-lg shadow-lg' alt="About Milot" />
+      <img src={aboutme} className='w-[250px] h-[300px] md:w-[300px] md:h-[350px] mb-6 md:mb-10 rounded-lg shadow-lg' alt="About Milot" />
     </div>
 
     <div className='text-white text-center md:text-left'>

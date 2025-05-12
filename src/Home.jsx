@@ -32,7 +32,7 @@ function Home() {
         </div>
         
         
-        <p className="text-white max-w-xl mb-6">
+        <p className="text-black font-bold max-w-xl mb-6">
           I’m a Full Stack Developer passionate about building modern, functional,
           and beautiful web applications. Scroll down to learn more about me and my projects 👇
         </p>
