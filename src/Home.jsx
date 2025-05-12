@@ -45,12 +45,12 @@ function Home() {
       <div className="flex items-center ml-[-4%] md:ml-0 justify-center gap-6">
         <div className="flex flex-col items-center gap-4">
           <img
-            src="images/laravel.png"
+            src="./images/laravel.png"
             alt="Laravel"
             className="w-[50px] h-[50px] animate-bounce"
           />
           <img
-            src="images/React.webp"
+            src="./images/React.webp"
             alt="React"
             className="w-[50px] h-[50px] animate-bounce"
           />
@@ -67,7 +67,7 @@ function Home() {
         </div>
 
         <img
-          src="images/mvghilbi.jpg"
+          src="./images/mvghilbi.jpg"
           alt="Milot"
           className="rounded-2xl border-zinc-500 border-8 w-[250px] md:w-[350px] h-auto"
         />
