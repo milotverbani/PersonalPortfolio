@@ -1,5 +1,12 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import laravel from '/images/laravel.png';
+import js from '/images/js.webp';
+import Reactt from '/images/React.webp';
+import php from '/images/php.png';
+import c from '/images/c.png';
+import python from '/images/python.png';
+import mysql from '/images/mysql.png';
 
 
 function Home() {
@@ -45,7 +52,7 @@ function Home() {
       <div className="flex items-center ml-[-4%] md:ml-0 justify-center gap-6">
         <div className="flex flex-col items-center gap-4">
           <img
-            src="./images/laravel.png"
+            src={laravel}
             alt="Laravel"
             className="w-[50px] h-[50px] animate-bounce"
           />
