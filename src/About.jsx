@@ -7,6 +7,7 @@ import Sliderprojects from './Sliderproject'
 import rocket from '/images/rocketlogo.png'
 import smile from '/images/smilelogo.png'
 import aboutme from '/images/aboutme.jpg'
+import Education from './Education';
 
 
 function PercentageCircle({ percent, radius = 60, color = '#3498db' }) {
@@ -178,6 +179,7 @@ function About() {
     </div>
   </div>
 </div>
+<Education/>
 
 
 </>

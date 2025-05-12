@@ -5,6 +5,7 @@ import js from '/images/js.webp';
 import Reactt from '/images/React.webp';
 import php from '/images/php.png';
 import ghilbi from '/images/mvghilbi.jpg'
+import CV from '/CV-Milot Verbani.pdf';
 
 
 function Home() {
@@ -42,7 +43,7 @@ function Home() {
             <button className=" cursor-pointer group relative h-12 overflow-hidden overflow-x-hidden rounded-md bg-neutral-950 px-8 py-2 text-neutral-50"><span className="relative z-10">Projects</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full rounded-full bg-blue-500 transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
         </a>
     
-          <a  href="CV-Milot Verbani.pdf"
+          <a  href={CV}
             download className="cursor-pointer group relative z-0 h-12 overflow-hidden overflow-x-hidden rounded-md bg-neutral-950 px-8 py-3 text-neutral-50"><span className="relative z-10">CV Download</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center translate-x-full rounded-full bg-blue-500 transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></a>
         </div>
       </div>
