@@ -169,11 +169,11 @@ function About() {
       </div>
       <div>
         <PercentageCircle percent={97} color="#f39c12" radius={80} />
-        <p className="text-white mt-2">PHP / Laravel</p>
+        <p className="text-white mt-2">PHP / Laravel / Mysql</p>
       </div>
       <div>
         <PercentageCircle percent={80} color="#e74c3c" radius={80} />
-        <p className="text-white mt-2">MySQL / Database</p>
+        <p className="text-white mt-2">C# / Python</p>
       </div>
     </div>
   </div>
