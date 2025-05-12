@@ -70,7 +70,7 @@ function About() {
 <div className="w-full  py-10 px-4 flex  md:flex-row justify-evenly items-center gap-10">
   {/* Projects Counter */}
   <div className="flex items-center text-blue-500 gap-4">
-    <img src="/images/rocketlogo.png" className="md:w-16 md:h-16 w-5 h-5" alt="Rocket Logo" />
+    <img src="images/rocketlogo.png" className="md:w-16 md:h-16 w-5 h-5" alt="Rocket Logo" />
     <div className="flex flex-col items-start">
       <span className="md:text-xl  text-sm font-semibold">Projects</span>
       <div className="flex items-baseline">
@@ -82,7 +82,7 @@ function About() {
 
   {/* Happy Clients Counter */}
   <div className="flex items-center  text-blue-500 gap-4">
-    <img src="/images/smilelogo.png" className="md:w-16 md:h-16 w-5 h-5" alt="Smile Logo" />
+    <img src="images/smilelogo.png" className="md:w-16 md:h-16 w-5 h-5" alt="Smile Logo" />
     <div className="flex flex-col items-start">
       <span className="md:text-xl md:w-[90px] w-[100px] text-sm font-semibold">Happy Clients</span>
       <div className="flex items-baseline">
@@ -115,7 +115,7 @@ function About() {
   <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center'>
     
     <div className='flex justify-center'>
-      <img src="/images/aboutme.jpg" className='w-[250px] h-[300px] md:w-[300px] md:h-[350px] mb-6 md:mb-10 rounded-lg shadow-lg' alt="About Milot" />
+      <img src="images/aboutme.jpg" className='w-[250px] h-[300px] md:w-[300px] md:h-[350px] mb-6 md:mb-10 rounded-lg shadow-lg' alt="About Milot" />
     </div>
 
     <div className='text-white text-center md:text-left'>
@@ -165,7 +165,7 @@ function About() {
         <p className="text-white mt-2">JavaScript / React</p>
       </div>
       <div>
-        <PercentageCircle percent={85} color="#f39c12" radius={80} />
+        <PercentageCircle percent={97} color="#f39c12" radius={80} />
         <p className="text-white mt-2">PHP / Laravel</p>
       </div>
       <div>

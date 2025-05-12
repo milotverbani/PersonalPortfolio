@@ -33,28 +33,28 @@ export default function Sliderprojects() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/images/onlineshop.png" className='h-[300px] w-[300px]' />
+          <img src="images/onlineshop.png" className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/lp.jpg" className='h-[300px] w-[300px]' />
+          <img src="images/lp.jpg" className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="/images/reactonlineshop.webp" className='h-[300px] w-[300px]' />
+           <img src="images/reactonlineshop.webp" className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="/images/milotfasfood.jpg" className='h-[300px] w-[300px]' />
+           <img src="images/milotfasfood.jpg" className='h-[300px] w-[300px]' />
         </SwiperSlide>
           <SwiperSlide>
-           <img src="/images/phpfotball.png" className='h-[300px] w-[300px]' />
+           <img src="images/phpfotball.png" className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="/images/onlinerent.jpg" className='h-[300px] w-[300px]' />
+           <img src="images/onlinerent.jpg" className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="/images/onlinebus.jpg" className='h-[300px] w-[300px]' />
+           <img src="images/onlinebus.jpg" className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/cafe.jpg" className='h-[300px] w-[300px]' />
+          <img src="images/cafe.jpg" className='h-[300px] w-[300px]' />
         </SwiperSlide>
       
       </Swiper>
