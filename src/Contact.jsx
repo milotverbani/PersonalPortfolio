@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faLinkedin, faInstagram   } from '@fortawesome/free-brands-svg-icons';
+import git from '/images/github.png'
 
 
 const Contact = () => {
@@ -68,7 +69,7 @@ const Contact = () => {
           <ul className="flex mt-12 space-x-4">
             <li className="bg-[#a91079] hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
               <a href="https://github.com/milotverbani" target="blank">
-               <img src="/images/github.png" className="w-5" alt="" />
+               <img src={git} className="w-5" alt="" />
               </a>
             </li>
             <li className="bg-[#a91079] hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">

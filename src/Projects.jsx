@@ -1,5 +1,21 @@
 import React, { useState } from 'react'
 import Marquee from 'react-fast-marquee';
+import onlineshop from '/images/onlineshop.png'
+import lp from '/images/lp.jpg'
+import reactshop from '/images/reactonlineshop.webp'
+import phpfotball from '/images/phpfotball.png'
+import onlinerent from '/images/onlinerent.jpg'
+import laravel from '/images/laravel.png';
+import js from '/images/js.webp';
+import Reactt from '/images/React.webp';
+import php from '/images/php.png';
+import c from '/images/c.png';
+import python from '/images/python.png';
+import mysql from '/images/mysql.png';
+import html from '/images/html5.png';
+import tailwindcss from '/images/tailwindcss.webp'
+import bootstrap from '/images/bootstrap.webp';
+
 
 function Projects() {
   const [paused, setPaused] = useState(false); // Për të menaxhuar ndalimin e lëvizjes
@@ -22,7 +38,7 @@ function Projects() {
       <Marquee direction="left" speed={40} pauseOnHover={paused}>
     <div className="relative flex flex-col ml-4 w-[350px]   bg-white shadow-sm border border-slate-200 rounded-lg md:w-96">
   <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-    <img src="images/onlineshop.png" className='h-50' alt="card-image" />
+    <img src={onlineshop} className='h-50' alt="card-image" />
   </div>
   <div className="p-4">
     <div className="flex items-center mb-2">
@@ -43,13 +59,13 @@ function Projects() {
  
   <div className="group my-3 inline-flex flex-wrap justify-center items-center gap-2">
     <button className="rounded-full pointer-events-none border  border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/html5.png" className='w-5 rounded-4xl' alt="" />
+     <img src={html} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/tailwindcss.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={tailwindcss} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/js.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={js} className='w-5 rounded-4xl' alt="" />
     </button>
    
   </div>
@@ -62,7 +78,7 @@ function Projects() {
 </div>  
  <div className="relative flex flex-col ml-4 w-[350px] mt-3   bg-white shadow-sm border border-slate-200 rounded-lg md:w-96">
   <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-    <img src="images/lp.jpg" className='h-50 w-[400px]' alt="card-image" />
+    <img src={lp} className='h-50 w-[400px]' alt="card-image" />
   </div>
   <div className="p-4">
     <div className="flex items-center mb-2">
@@ -83,13 +99,13 @@ function Projects() {
  
   <div className="group my-3 inline-flex flex-wrap justify-center items-center gap-2">
     <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/html5.png" className='w-5 rounded-4xl' alt="" />
+     <img src={html} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/bootstrap.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={bootstrap} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/js.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={js} className='w-5 rounded-4xl' alt="" />
     </button>
    
   </div>
@@ -104,7 +120,7 @@ function Projects() {
 </div>
   <div className="relative flex flex-col ml-4 w-[350px] mt-3   bg-white shadow-sm border border-slate-200 rounded-lg md:w-96">
   <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-    <img src="images/reactonlineshop.webp" className='h-50' alt="card-image" />
+    <img src={reactshop} className='h-50' alt="card-image" />
   </div>
   <div className="p-4">
     <div className="flex items-center mb-2">
@@ -123,13 +139,13 @@ function Projects() {
  
   <div className="group my-3 inline-flex flex-wrap justify-center items-center gap-2">
     <button className="rounded-full pointer-events-none border  border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/html5.png" className='w-5 rounded-4xl' alt="" />
+     <img src={html} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/tailwindcss.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={tailwindcss} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/React.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={Reactt} className='w-5 rounded-4xl' alt="" />
     </button>
    
   </div>
@@ -144,7 +160,7 @@ function Projects() {
 </div>
   <div className="relative flex flex-col ml-4 w-[350px] mt-3   bg-white shadow-sm border border-slate-200 rounded-lg md:w-96">
   <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-    <img src="images/onlinerent.jpg" className='h-50' alt="card-image" />
+    <img src={onlinerent} className='h-50' alt="card-image" />
   </div>
   <div className="p-4">
     <div className="flex items-center mb-2">
@@ -165,16 +181,16 @@ function Projects() {
  
   <div className="group my-3 inline-flex flex-wrap justify-center items-center gap-2">
     <button className="rounded-full pointer-events-none border  border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/html5.png" className='w-5 rounded-4xl' alt="" />
+     <img src={html} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/tailwindcss.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={tailwindcss} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/laravel.png" className='w-5 rounded-4xl' alt="" />
+     <img src={laravel} className='w-5 rounded-4xl' alt="" />
     </button>
        <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/mysql.png" className='w-5 h-5 rounded-4xl' alt="" />
+     <img src={mysql} className='w-5 h-5 rounded-4xl' alt="" />
     </button>
    
   </div>
@@ -187,7 +203,7 @@ function Projects() {
 </div>
 <div className="relative flex flex-col ml-4 w-[350px] mt-3 mb-4   bg-white shadow-sm border border-slate-200 rounded-lg md:w-96">
   <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-    <img src="images/phpfotball.png" className='h-50 w-full' alt="card-image" />
+    <img src={phpfotball} className='h-50 w-full' alt="card-image" />
   </div>
   <div className="p-4">
     <div className="flex items-center mb-2">
@@ -208,16 +224,16 @@ function Projects() {
  
   <div className="group my-3 inline-flex flex-wrap justify-center items-center gap-2">
     <button className="rounded-full pointer-events-none border  border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/html5.png" className='w-5 rounded-4xl' alt="" />
+     <img src={html} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/tailwindcss.webp" className='w-5 rounded-4xl' alt="" />
+     <img src={tailwindcss} className='w-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/php.png" className='w-5 h-5 rounded-4xl' alt="" />
+     <img src={php} className='w-5 h-5 rounded-4xl' alt="" />
     </button>
      <button className="rounded-full pointer-events-none border border-slate-300 p-2.5 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-     <img src="images/mysql.png" className='w-5 h-5 rounded-4xl' alt="" />
+     <img src={mysql} className='w-5 h-5 rounded-4xl' alt="" />
     </button>
    
   </div>

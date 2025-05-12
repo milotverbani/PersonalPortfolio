@@ -1,6 +1,16 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import onlineshop from '/images/onlineshop.png'
+import lp from '/images/lp.jpg'
+import reactshop from '/images/reactonlineshop.webp'
+import milotfast from '/images/milotfasfood.jpg'
+import phpfotball from '/images/phpfotball.png'
+import onlinerent from '/images/onlinerent.jpg'
+import bus from '/images/onlinebus.jpg'
+import cafe from '/images/cafe.jpg'
+
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -33,28 +43,28 @@ export default function Sliderprojects() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="images/onlineshop.png" className='h-[300px] w-[300px]' />
+          <img src={onlineshop} className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/lp.jpg" className='h-[300px] w-[300px]' />
+          <img src={lp} className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="images/reactonlineshop.webp" className='h-[300px] w-[300px]' />
+           <img src={reactshop} className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="images/milotfasfood.jpg" className='h-[300px] w-[300px]' />
+           <img src={milotfast} className='h-[300px] w-[300px]' />
         </SwiperSlide>
           <SwiperSlide>
-           <img src="images/phpfotball.png" className='h-[300px] w-[300px]' />
+           <img src={phpfotball} className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="images/onlinerent.jpg" className='h-[300px] w-[300px]' />
+           <img src={onlinerent} className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="images/onlinebus.jpg" className='h-[300px] w-[300px]' />
+           <img src={bus} className='h-[300px] w-[300px]' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/cafe.jpg" className='h-[300px] w-[300px]' />
+          <img src={cafe} className='h-[300px] w-[300px]' />
         </SwiperSlide>
       
       </Swiper>

@@ -4,6 +4,8 @@ import { useEffect } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Sliderprojects from './Sliderproject'
+import rocket from '/images/rocketlogo.png'
+import smile from '/images/smilelogo.png'
 
 
 function PercentageCircle({ percent, radius = 60, color = '#3498db' }) {
@@ -70,7 +72,7 @@ function About() {
 <div className="w-full  py-10 px-4 flex  md:flex-row justify-evenly items-center gap-10">
   {/* Projects Counter */}
   <div className="flex items-center text-blue-500 gap-4">
-    <img src="images/rocketlogo.png" className="md:w-16 md:h-16 w-5 h-5" alt="Rocket Logo" />
+    <img src={rocket} className="md:w-16 md:h-16 w-5 h-5" alt="Rocket Logo" />
     <div className="flex flex-col items-start">
       <span className="md:text-xl  text-sm font-semibold">Projects</span>
       <div className="flex items-baseline">
@@ -82,7 +84,7 @@ function About() {
 
   {/* Happy Clients Counter */}
   <div className="flex items-center  text-blue-500 gap-4">
-    <img src="images/smilelogo.png" className="md:w-16 md:h-16 w-5 h-5" alt="Smile Logo" />
+    <img src={smile} className="md:w-16 md:h-16 w-5 h-5" alt="Smile Logo" />
     <div className="flex flex-col items-start">
       <span className="md:text-xl md:w-[90px] w-[100px] text-sm font-semibold">Happy Clients</span>
       <div className="flex items-baseline">
