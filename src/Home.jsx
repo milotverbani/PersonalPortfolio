@@ -4,9 +4,7 @@ import laravel from '/images/laravel.png';
 import js from '/images/js.webp';
 import Reactt from '/images/React.webp';
 import php from '/images/php.png';
-import c from '/images/c.png';
-import python from '/images/python.png';
-import mysql from '/images/mysql.png';
+import ghilbi from '/images/mvghilbi.jpg'
 
 
 function Home() {
@@ -57,24 +55,24 @@ function Home() {
             className="w-[50px] h-[50px] animate-bounce"
           />
           <img
-            src="./images/React.webp"
+            src={Reactt}
             alt="React"
             className="w-[50px] h-[50px] animate-bounce"
           />
           <img
-            src="images/php.png"
+            src={php}
             alt="PHP"
             className="w-[50px] h-[50px] animate-bounce"
           />
           <img
-            src="images/js.webp"
+            src={js}
             alt="JavaScript"
             className="w-[50px] h-[50px] animate-bounce"
           />
         </div>
 
         <img
-          src="./images/mvghilbi.jpg"
+          src={ghilbi}
           alt="Milot"
           className="rounded-2xl border-zinc-500 border-8 w-[250px] md:w-[350px] h-auto"
         />
