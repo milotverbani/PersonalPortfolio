@@ -102,27 +102,27 @@ const Contact = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                     <div className="relative z-0">
-                        <input type="text" id="first_name" 
+                        <input type="text" name="name" id="name" 
                             className="block w-full px-4 py-3 text-gray-800 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-light focus:border-transparent peer" 
                             placeholder=" " required />
-                        <label htmlFor="first_name" 
+                        <label htmlFor="name" 
                             className="absolute left-4 top-3 text-gray-500 duration-300 transform -translate-y-6 scale-75 z-10 origin-[0] peer-focus:left-4 peer-focus:text-primary-light peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-95 peer-focus:-translate-y-9">
                             First Name
                         </label>
                     </div>
                     
                     <div className="relative z-0">
-                        <input type="text" id="last_name" 
+                        <input type="text" name="lastname" id="lastname" 
                             className="block w-full px-4 py-3 text-gray-800 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-light focus:border-transparent peer" 
                             placeholder=" " required />
-                        <label htmlFor="last_name" 
+                        <label htmlFor="lastname" 
                             className="absolute left-4 top-3 text-gray-500 duration-300 transform -translate-y-6 scale-75 z-10 origin-[0] peer-focus:left-4 peer-focus:text-primary-light peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-9">
                             Last Name
                         </label>
                     </div>
                     
                     <div className="relative z-0 md:col-span-2">
-                        <input type="email" id="email" 
+                        <input type="email" name="email" id="email" 
                             className="block w-full px-4 py-3 text-gray-800 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-light focus:border-transparent peer" 
                             placeholder=" " required />
                         <label htmlFor="email" 
@@ -132,7 +132,7 @@ const Contact = () => {
                     </div>
                     
                     <div className="relative z-0 md:col-span-2">
-                        <input type="tel" id="phone" 
+                        <input type="tel" name="phone" id="phone" 
                             className="block w-full px-4 py-3 text-gray-800 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-light focus:border-transparent peer" 
                             placeholder=" " />
                         <label htmlFor="phone" 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useRef , useState } from 'react'
 import Marquee from 'react-fast-marquee';
 import onlineshop from '/images/onlineshop.png'
 import lp from '/images/lp.jpg'

@@ -1,6 +1,7 @@
 import React from 'react'
-import { animate, motion, useMotionValue, useTransform } from "motion/react"
-import { useEffect } from "react"
+
+import { useRef , useEffect } from "react";
+import { useMotionValue, useTransform, animate, useInView, motion } from "framer-motion"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Sliderprojects from './Sliderproject'
@@ -45,34 +46,37 @@ function PercentageCircle({ percent, radius = 60, color = '#3498db' }) {
 }
 
 function About() {
-   const count = useMotionValue(0)
-    const rounded = useTransform(() => Math.round(count.get()))
+  const count = useMotionValue(0)
+  const rounded = useTransform(count, latest => Math.round(latest))
+  
+  const countt = useMotionValue(0)
+  const roundedd = useTransform(countt, latest => Math.round(latest))
+  
+  const countty = useMotionValue(0)
+  const roundeddy = useTransform(countty, latest => Math.round(latest))
 
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true })
 
-    useEffect(() => {
-        const controls = animate(count, 10, { duration: 5 })
-        return () => controls.stop()
-    }, [])
-    const countt = useMotionValue(0)
-    const roundedd = useTransform(() => Math.round(countt.get()))
+  useEffect(() => {
+    if (isInView) {
+      const controls1 = animate(count, 10, { duration: 5 })
+      const controls2 = animate(countt, 3, { duration: 5 })
+      const controls3 = animate(countty, 2, { duration: 5 })
 
-    useEffect(() => {
-        const controls = animate(countt, 3, { duration: 5 })
-        return () => controls.stop()
-    }, [])
-    const countty = useMotionValue(0)
-    const roundeddy = useTransform(() => Math.round(countty.get()))
-
-    useEffect(() => {
-        const controls = animate(countty, 2, { duration: 5 })
-        return () => controls.stop()
-    }, [])
+      return () => {
+        controls1.stop()
+        controls2.stop()
+        controls3.stop()
+      }
+    }
+  }, [isInView])
   return (
          <>
-    <div className='bg-gray-950 mt-20 shadow-gray-800'>
+    <div ref={ref} className='bg-gray-950 mt-20 shadow-gray-800'>
    
 <div className="w-full  py-10 px-4 flex  md:flex-row justify-evenly items-center gap-10">
-  {/* Projects Counter */}
+ 
   <div className="flex items-center text-blue-500 gap-4">
     <img src={rocket} className="md:w-16 md:h-16 w-5 h-5" alt="Rocket Logo" />
     <div className="flex flex-col items-start">
@@ -84,7 +88,7 @@ function About() {
     </div>
   </div>
 
-  {/* Happy Clients Counter */}
+ 
   <div className="flex items-center  text-blue-500 gap-4">
     <img src={smile} className="md:w-16 md:h-16 w-5 h-5" alt="Smile Logo" />
     <div className="flex flex-col items-start">
@@ -96,7 +100,7 @@ function About() {
     </div>
   </div>
 
-  {/* Years Counter */}
+ 
   <div className="flex items-center text-blue-500 gap-4">
     <div className="w-16 h-16 flex items-center justify-center rounded-full shadow">
       <svg xmlns="http://www.w3.org/2000/svg" className="md:w-10 md:h-10 w-5 h-5 mr-[50px] md:mr-0 text-blue-600" viewBox="0 0 640 512" fill="currentColor">

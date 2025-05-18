@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md fixed w-full z-10 top-0 left-0">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="text-2xl font-bold text-blue-600">MiLotV</div>
+       <a href="#home"><div className="text-2xl font-bold text-blue-600">MiLotV</div></a> 
 
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
