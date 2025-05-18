@@ -5,7 +5,7 @@ const SplashScreen = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-black text-white flex-col">
       <img
-        src={mvlogo} // vendose logon tënde në public/
+        src={mvlogo} 
         alt="Logo"
         className="w-24 h-24 rounded-full animate-bounce"
       />
