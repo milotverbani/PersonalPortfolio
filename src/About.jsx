@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faRocket, faSmile, faCode } from '@fortawesome/free-solid-svg-icons';
 import Education from './Education';
+import aboutme from '/images/aboutme.jpg'
 
 // Background image would be imported like this (you'll need to add your own image)
 // import bgPattern from '/images/abstract-tech-pattern.jpg';
@@ -200,7 +201,7 @@ function About() {
             >
               <div className="relative w-72 h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-gray-700/50 group">
                 <img 
-                  src="/images/aboutme.jpg" 
+                  src={aboutme} 
                   alt="Milot Verbani" 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                 />
