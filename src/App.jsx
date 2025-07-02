@@ -11,6 +11,7 @@ import Contact from './Contact'
 import Footer from './Footer'
 import Sliderprojects from './Sliderproject'
 import SplashScreen from './SplashScreen' 
+import Test from './Test'
 
 function App() {
   const [loading, setLoading] = useState(true)
