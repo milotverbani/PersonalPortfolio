@@ -8,7 +8,7 @@ const Footer = () => {
   
   const socialLinks = [
     { icon: <FaGithub className="text-lg" />, url: "https://github.com/milotverbani", name: "GitHub" },
-    { icon: <FaLinkedin className="text-lg" />, url: "https://linkedin.com/in/milotverbani", name: "LinkedIn" },
+    { icon: <FaLinkedin className="text-lg" />, url: "https://www.linkedin.com/in/milot-verbani-4371232b1/", name: "LinkedIn" },
     { icon: <FaEnvelope className="text-lg" />, url: "mailto:milot.verbani233@gmail.com", name: "Email" }
   ];
 
