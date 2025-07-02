@@ -6,8 +6,6 @@ import { faRocket, faSmile, faCode } from '@fortawesome/free-solid-svg-icons';
 import Education from './Education';
 import aboutme from '/images/aboutme.jpg'
 
-// Background image would be imported like this (you'll need to add your own image)
-// import bgPattern from '/images/abstract-tech-pattern.jpg';
 
 function PercentageCircle({ percent, radius = 80, color = '#3b82f6', name }) {
   const strokeWidth = 8;
